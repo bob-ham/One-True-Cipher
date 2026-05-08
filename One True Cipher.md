@@ -10,23 +10,23 @@ based off the keyboard numbers, it'll go down numbers
 
 the cipher table would be
 
-1 -> q        4 -> r             7  ->  u 
+1 -> q           4 -> r             7  ->  u 
 
-11 -> a      44 -> f           77 ->  j 
+11 -> a         44 -> f            77 ->  j 
 
-111 -> z    444 -> v        777 -> m
+111 -> z       444 -> v            777 -> m
 
-2 -> w      5 -> t             8 -> i 
+2 -> w         5 -> t              8 -> i 
 
-22 -> s     55 -> g          88 -> k 
+22 -> s        55 -> g            88 -> k 
 
-222 -> x   555 -> b    
+222 -> x      555 -> b    
 
-3 -> e       6 -> y            9 -> o
+3 -> e          6 -> y            9 -> o
 
-33 -> d     66 -> h         99 -> l
+33 -> d        66 -> h           99 -> l
 
-333 -> c    666 -> n      0 -> p
+333 -> c       666 -> n           0 -> p
 
 spaces would be :
 
