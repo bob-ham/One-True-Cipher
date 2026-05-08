@@ -1,118 +1,178 @@
 cipher idea that uses the number system 
+
 would be really easy to solve but good for obfuscation (kind of)
+
 math based cipher basically
 
 it'll work as followed
+
 based off the keyboard numbers, it'll go down numbers
 
 the cipher table would be
+
 1 -> q        4 -> r             7  ->  u 
+
 11 -> a      44 -> f           77 ->  j 
+
 111 -> z    444 -> v        777 -> m
 
 2 -> w      5 -> t             8 -> i 
+
 22 -> s     55 -> g          88 -> k 
+
 222 -> x   555 -> b    
 
 3 -> e       6 -> y            9 -> o
+
 33 -> d     66 -> h         99 -> l
+
 333 -> c    666 -> n      0 -> p
 
 spaces would be :
+
 separators would be ; (optional)
 
 *shifting symbols*
+
 ! @ # $ %     ^  & *  (   )
+
 1 2  3  4  5    6  7 8  9  0   <- by how much you want to shift by (use the symbol though)
+
 *bridging symbol*
+
 :: <- for later 
+
 *backslash & frontslash symbol*
+
 \ /
+
 *question mark and greater then and less then symbols*
+
 ? <>
+
 *captial symbols*
+
 ||
+
 |[]|
 
 [shifting symbol lets you shift the numbers by 1 or subtract by 1]
 
 '+'(symbol) [shifts the numbers by that symbol, so if you do ! it makes 1 -> 2 and so forth]
+
 '-'(symbol) [shifts the numbers by that symbol so if you do ! it makes 1 -> 0 and so forth]
+
 ! the shift resets after the letter or when you declare a new symbol !
 
 lets you able to do symbol for multiple words as the symbol resets after the word so your able to do this
 
 [capitals letters]
+
 uses the | symbol
 if you want a full word or sentence to be capital
-you need to use brackets 
+
+you need to use brackets
+
 |[]|
+
 like that
 
 *complex encryptions*
+
 for complex encryption
+
 your able to use the {} symbol to put in-between letters
-like 8 : 999;{+@666};3
+
+like 8 : 99;9;{+@666};3
 
 **HIGHLY RECOMENDED TO USE SEPERATORS (;)**
 
 [*backslash '/' would mean shift everything BACK by a number*]
+
 !MUST BE APPLIED AT THE END OF ENCRYPTED TEXT!
+
 ! USES BRIDGING SYMBOL !
 
 example:
+
 +!(encryption)/! <- would mean shift every number by one, but still apply the symbol so in this situation it would be 0
+
 +@(encryption)/# <- would mean shift every number by -1, so shift everything back by 1
 
 33 : 3 : 3 : 4 -> deer
+
 +@22 : 2 : 2 : 3::/& -> deer
 
 +@ -> shift by 2 fowards (adding)
+
 /& -> shifts everything back (so you would do 2 - 7 which is -5 so shift everything backwards by 5)
+
 3 back 5 is -2, so 2
 
 [*front slash '\\' would mean shift everything FRONTWARDS by a number, no matter the symbol]
+
 !MUST BE APPLIED AT THE END OF ENCRYPTED TEXT!
+
 ! USES BRIDGING SYMBOL !
 
 example:
+
 so +!(encryption)\\# <- would mean 4, cause 1 + 3 equals 4
+
 +@(encryption)\\$ <- would mean shift everything by 5, cause 1 + 4 equals 5
 
 33 : 3 : 3 : 4 -> deer
+
 +#00 : 0 : 0 : 1::\\$ -> deer
 
 +# -> shifts everything fowards by 3 
+
 \\$ -> shifts everything forward by 4 (3 + 4 = 7)
+
 shift everything by 7
 
 [*question mark "?" would mean shift everything front or back by multiplying*]
+
 !MUST BE APPLIED AT THE END OF AN ENCRYPTED TEXT!
+
 ! USES BRIDGING SYMBOL !
 
 usage:
+
 ?(+ -)(symbol)
+
 example:
+
 +!(encryption)?+# <- equals 1 X 3 or shift by 3 since the plus sign
+
 -!(encryption)?-$ <- equals -1 X -4 or shift by minus 5 so 5 = 0 and 1 = 5
 
 33 : 3 : 3 : 4 -> deer
+
 +@11 : 1 : 1 : 2::?+$ -> deer
 
 +@ -> shift everything foward by 2
+
 ::?+$ -> starts with bridging symbol (::) and mutiplies the last shifting symbol used by the symbol (in this case $) and 2 X 4 is 8, so shift everything forward by 8
 
 [*fraction is "<>", would divide the entire thing to get an interger which you shift fowards or backwards by*]
+
 !CAN BE USED AS AN INLINE!
+
 !!! HAS TO BE AN INTERGER !!!
+
 ! USES BRIDING SYMBOL !
 
 usage:
+
 <(numbers you want to divide by (HAS TO BE AN EQUAL AN INTERGER))>(+ -)
+
 example:
+
 +!9 : 999;{::<4/2>-;222;{+#6}}; : +@44696666 
 
 {::<4/2?-;} -> starts with bridging symbol (::), does 4 divided by 2 (2) and shifts backwards 2 (cause of - symbol) and the ; symbol is used for spacers (more easily readable but is optional) and {} symbol is for inline symbol shifting
+
 {+#} -> {} for inline symbol shifting and shifts forward by 3 (#)
 
 
