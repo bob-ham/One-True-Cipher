@@ -8,12 +8,12 @@ it'll work as followed
 
 based off the keyboard numbers, it'll go down numbers
 
-the cipher table would be
+the cipher table would be (going to be formatted as (number, number number) = (letter, letter letter) to save space
 
-1 -> q
- |11 -> a
- |111 -> z
+1,11,111 -> q,a,z
 
+2,22,222 -> w,s,x\n
+3,3,333 -> e,d,c
 
 spaces would be :
 
