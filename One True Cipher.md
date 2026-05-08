@@ -12,8 +12,23 @@ the cipher table would be (going to be formatted as (number, number number) = (l
 
 1,11,111 -> q,a,z
 
-2,22,222 -> w,s,x\n
-3,3,333 -> e,d,c
+2,22,222 -> w,s,x
+
+3,33,333 -> e,d,c
+
+4,44,444 -> r,f,v
+
+5,55,555 -> t,g,b
+
+6,66,666 -> y,h,n
+
+7,77,777 -> u,j,mm
+
+8,88 -> i,k
+
+9,99 -> o,l 
+
+0 -> p
 
 spaces would be :
 
