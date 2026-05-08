@@ -182,18 +182,23 @@ example:
 **encryption examples**
 
 [normal encrypted text]
+
 '8 : 99;9;444;3 : 22;5;7;4444' -> i love stuff
 
 [text with one symbol]
+
 '+!9 : 00;05554 : 33685555' -> i love stuff
 
 [encryption with multiple symbols]
+
 '+!9 : -!8883332 : +$66128888' -> i love stuff
 
 [symbols in-between letters for complex encryption + capitalization ]
+
 '+#1 : |[-$555;{+@666};+@5]| : -&55;{+!68};+#7777' -> i LOVE stuff
 
 [most complex encryption format]
+
 "+@4 : 11;1{::<4/2>+888;{+$9}} : -****88{+@9;1;{::<6/2>+99;99}}::\\+@" -> i love stuff*
 
 "+#1 : |[+@111{::<4/2>-222;{+#6}}]| : +#5;5{::<8/2>+9;1{+@66;66}}" -> i LOVE stuff
